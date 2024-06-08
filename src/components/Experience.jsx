@@ -63,6 +63,8 @@ const Experience = () => {
         <h2 className={`${styles.sectionHeadText} text-center`}>
           Relevant coursework
         </h2>
+        <h4 className={`${styles.sectionSubText
+        } text-center`}>At the University of Twente</h4>
       </motion.div>
 
       <div className='mt-20 flex flex-col'>

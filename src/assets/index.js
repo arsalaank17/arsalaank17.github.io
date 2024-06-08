@@ -28,12 +28,22 @@ import java from "./tech/java.png";
 import haskell from "./tech/haskell.png";
 import programming from "./tech/programming.png";
 import dsa from "./tech/dsa.png";
+import AI from "./AI.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import website from "./tech/website.png";
+import dashboard from "./dashboard.png";
+import pentago from "./pentago.png";
+import tree from "./tree.png";
+import refinement from "./refinement.png";
+
+import jpg from "./jpg.png";
+import ceep from "./ceep.png";
+
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -80,5 +90,11 @@ export {
   website,
   dsa,
   a_logo,
-
+  dashboard,
+  pentago,
+  tree,
+  refinement,
+  jpg,
+  ceep,
+  AI
 };

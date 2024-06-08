@@ -9,8 +9,6 @@ import {
   reactjs,
   git,
   meta,
-  shopify,
-  carrent,
   jobit,
   tripguide,
   postgresql,
@@ -21,8 +19,14 @@ import {
   haskell,
   programming,
   website,
-  dsa
-  
+  dsa,
+  dashboard,
+  pentago,
+  tree,
+  refinement,
+  jpg,
+  ceep,
+  AI
 } from "../assets";
 
 export const navLinks = [
@@ -110,50 +114,54 @@ const technologies = [
 const experiences = [
   {
     title: "Software Systems",
-    company_name: "Module 2",
+    company_name: "",
     icon: programming,
     iconBg: "#383E56",
     date: "2021",
     points: [
-      "Learned the concepts related to Object Oriented Programming like encapsulation, inheritance , polymorphism , and abstraction",
-      "Learned to use Software Engineering models (UML diagrams: class, activity, statecharts) and understand waterfall development processes.",
-      "Distinguish testing levels (unit, system), grasp test plan principles, acquire project management, planning, time and self-management skills, and reflect on planning behaviors.",
-      "Multi-threading in Java, focusing on correctness with preconditions and postconditions, and address Java security aspects.",
+      "Concepts of Object Oriented Programming like encapsulation, inheritance , polymorphism , and abstraction",
+      "Software Engineering models (UML diagrams: class, activity, statecharts) and waterfall development processes.",
+      "Distinguish testing levels (unit, system), grasp test plan principles.",
+      "Multi-threading in Java, preconditions and postconditions, and Java security aspects.",
     ],
   },
   {
     title: "Data & Information",
-    company_name: "Module 4",
+    company_name: "",
     icon: website,
     iconBg: "#E6DEDD",
     date: "2021",
     points: [
-      " Learned to design, implement, and test complex systems using databases, scripting frameworks, and RESTful services, focusing on structured and semi-structured data and security.",
+      " Implement and test complex systems using databases, frameworks, and RESTful services.",
       "Executed a large project using agile methods (SCRUM, task boards), gaining experience with stakeholders and teamwork.",
-      "Identified and prioritize business requirements, design UML class diagrams, and develop web-based applications.",
-      "Implemented multi-tier web apps, handled XML/JSON data, integrate with RESTful services, and ensure security against unauthorized access and injections.",
+      "Business requirements, design UML class diagrams, and develop web-based applications.",
+      "Implemented multi-tier web apps, handled XML/JSON data and ensure security against unauthorized access and injections.",
     ],
   },
   {
     title: "Data Structures & Algorithms",
-    company_name: "Module 7",
+    company_name: "",
     icon: dsa,
     iconBg: "#383E56",
     date: "2022",
     points: [
-      "Understand and use discrete structures (graphs, networks, regular expressions, etc.) for modeling and problem-solving.",
-      "Work with formal techniques (mathematical induction, dynamic programming, analysis of algorithms) to solve complex problems.",
-      "Implement and test algorithms for discrete structures, use efficient data structures, and document computational results.",
-      "Engage in a larger project on the graph isomorphism problem, involving the implementation, testing, and documentation of algorithms.",
+      "Discrete structures (graphs, networks, regular expressions, etc.) for modeling and problem-solving.",
+      "Formal techniques (mathematical induction, dynamic programming, analysis of algorithms) to solve complex problems.",
+      "Algorithms for discrete structures, use efficient data structures, and document computational results.",
+      "Project on the graph isomorphism problem, involving the implementation, testing, and documentation of algorithms.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Data Science & AI",
+    company_name: "",
+    icon: AI,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
+      "Advanced ML/AI techniques including NLP, image analysis using neural networks, and decision analysis modeling.",
+      "Compare various data modeling methods and algorithms, applying advanced statistical and mathematical techniques for business applications.",
+      "Proficiency with distributed systems and infrastructures like Hadoop and MapReduce for efficient data processing.",
+      "Comprehensive data analytics, including data scraping, cleansing, and ethical maintenance."
       
     ],
   },
@@ -188,68 +196,155 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Project",
+    name: "Twitter Dashboard",
     description:
-      "I am the best",
+      "The SPORTweet Dashboard is a front-end application designed to " +
+      "categorize and display tweets related to different sports." +
+      "The dashboard processes tweets one by one, categorizing them into sections." +
+      "Additionally, it features interactive elements such as trendline graphs and a word cloud.",
     tags: [
       {
-        name: "Hire me",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "Right now",
+        name: "Twitter",
         color: "green-text-gradient",
       },
       {
-        name: "bro",
+        name: "Data Analysis",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: dashboard,
+    source_code_link: "https://github.com/arsalaank17/Twitter-Dashboard",
   },
   {
-    name: "Job 2",
+    name: "Pentago Game",
     description:
-      "I will do anything",
+      "This project is a text-based user interface (TUI) implementation of the board game Pentago. Demonstrates understanding of OOP principles, documentation within code and concurrency.",
     tags: [
       {
-        name: "Just hire me",
+        name: "OOP",
         color: "blue-text-gradient",
       },
       {
-        name: "HIRE",
+        name: "Java",
         color: "green-text-gradient",
       },
       {
-        name: "now",
+        name: "Concurrency",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: pentago,
+    source_code_link: "https://github.com/arsalaank17/Pentago-game",
   },
   {
-    name: "Please",
+    name: "Tree watering web application",
     description:
-      "Now",
+      "This application is a user-friendly web application designed to monitor and manage the water levels of newly planted trees. This application aims to ensure that gardeners can easily track and maintain adequate water levels for each tree, preventing tree mortality due to insufficient watering.",
     tags: [
       {
         name: "Java",
         color: "blue-text-gradient",
       },
       {
-        name: "Python",
+        name: "Web Application",
         color: "green-text-gradient",
       },
       {
-        name: "Haskell",
+        name: "RESTful Services",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Databases",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: tree,
+    source_code_link: "https://github.com/arsalaank17/TreeWatering",
+  },
+  {
+    name: "Color Refinement Algorithm",
+    description:
+      "In this project, I implemented the color refinement algorithm in Python, " +
+      "a fundamental graph isomorphism technique used in computer science. By applying this algorithm, " +  
+      "I demonstrated its utility in graph theory applications such as automorphism detection " +
+      "and graph classification, showcasing my skills in algorithm design, optimization, and Python programming.",
+    tags: [
+      {
+        name: "Algorithms",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Data Structures",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Python",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: refinement,
+    source_code_link: "https://github.com/arsalaank17/Color-Refinement",
   },
+
+  {
+    name: "JPEG Encoder",
+    description:
+      "In this project, we implemented the JPEG Encoding algorithm using Clash, a Haskell library for hardware description." +  
+      "We designed hardware components for Color Space Conversion, Chrominance Subsampling, " +  
+      "Discrete Cosine Transform (DCT), Quantization, and Run-Length Encoding (RLE). " +
+      "This project demonstrates my skills in hardware design, functional programming, and image processing.",
+    tags: [
+      {
+        name: "Haskell",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Functional Programming",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Hardware",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jpg,
+    source_code_link: "https://github.com/arsalaank17/JPEG-Encoder",
+  },
+
+  {
+    name: "Full Stack Website for CEEP",
+    description:
+      "This project involves developing a platform for the Committee for Education Evaluation Panels (CEEP) using Django, " + 
+      "React, and PostgreSQL. The platform supports organizing and overseeing evaluation panel sessions for the Technical " +
+      "Computer Science (TCS) and Business and IT (BIT) bachelor programs. This project demonstrates my ability to develop comprehensive " + 
+      "web applications using Django, React, and PostgreSQL. It showcases my skills in full-stack development, database management," +
+      "and user interface design.",
+    tags: [
+      {
+        name: "Django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Full-stack",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ceep,
+    source_code_link: "https://github.com/arsalaank17/Design-Project-CEEP",
+  },
+ 
+    
+
+
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
